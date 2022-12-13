@@ -68,4 +68,12 @@ export const routesConfig = [
     path: '/role',
     component: 'Role',
   },
+  {
+    path: '/calendar',
+    component: 'Calendar',
+  },
+  {
+    path: '/department',
+    component: 'Department',
+  },
 ];

@@ -1,5 +1,5 @@
-export const DOWNLOAD_BASE_URL ='https://13.232.237.69:8888/download/';
-export const API_BASE_URL ='https://13.232.237.69:8888/api/';
+export const DOWNLOAD_BASE_URL ='https://localhost:8888/download/';
+export const API_BASE_URL ='https://localhost:8888/api/';
 
 // export const DOWNLOAD_BASE_URL ='http://localhost:8888/download/';
 // export const API_BASE_URL ='http://localhost:8888/api/';

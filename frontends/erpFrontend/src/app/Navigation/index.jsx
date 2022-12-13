@@ -62,9 +62,13 @@ export default function Navigation() {
             <Link to={'/'} />
             Dashboard
           </Menu.Item>
+          <Menu.Item key={'Department'} icon={<TeamOutlined />}>
+            <Link to={'/department'} />
+            부서관리
+          </Menu.Item>
           <Menu.Item key={'Customer'} icon={<CustomerServiceOutlined />}>
             <Link to={'/customer'} />
-            Customer
+            고객관리
           </Menu.Item>
           <Menu.Item key={'Invoice'} icon={<FileTextOutlined />}>
             <Link to={'/invoice'} />
@@ -86,6 +90,11 @@ export default function Navigation() {
             <Link to={'/admin'} />
             Admin
           </Menu.Item>
+          <Menu.Item key={'Calendar'} icon={<TeamOutlined />}>
+            <Link to={'/calendar'} />
+            일정관리
+          </Menu.Item>
+
           <SubMenu key={'Settings'} icon={<SettingOutlined />} title={'Settings'}>
             <Menu.Item key={'PaymentMode'}>
               <Link to={'/payment/mode'} />
